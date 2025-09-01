@@ -30,6 +30,10 @@ public class Main {
         // retornar com o metodo sobrescrito para json.
         carrinhoCompras.forEach(System.out::println);
 
+        System.out.println("------------------------");
+        System.out.println(carrinhoCompras.get(1));                     // retorna o objeto todo da lista
+        System.out.println(carrinhoCompras.get(1).getValor());          // retorna o atributo do objeto na lista
+
 
 
 
